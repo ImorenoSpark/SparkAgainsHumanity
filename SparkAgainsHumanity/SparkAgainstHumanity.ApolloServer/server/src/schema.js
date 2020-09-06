@@ -42,9 +42,8 @@ const typeDefs = gql`
     description: String
   }
   type User {
-    id: ID!
+    userId: ID!
     email: String!
-    profileImage: String
     token: String
   }
   type BlackCard {
@@ -63,11 +62,16 @@ const typeDefs = gql`
     blackCardplayingId: Int
     currentCardCzarId: Int
   }
+  type GamePlayer {
+    gameId: Int
+    userId: Int
+    orderColumn: Int
+  }
   type GamePlayerHand {
     gameId: Int
     userId: Int
     whiteCardId: Int
-    order: Int
+    orderColumn: Int
   }
   type GameRound {
     gameId: Int

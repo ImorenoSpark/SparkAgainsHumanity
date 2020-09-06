@@ -72,6 +72,17 @@ module.exports.createStore = () => {
     userId: Sequelize.INTEGER,
     blackCardId: Sequelize.INTEGER,
   });
+  const gamePlayer = db.define("gameplayer", {
+    gameId: {
+      type: Sequelize.INTEGER,
+      primaryKey: true,
+    },
+    userId: {
+      type: Sequelize.INTEGER,
+      primaryKey: true,
+    },
+    orderColumn: Sequelize.INTEGER,
+  });
   const gamePlayerHand = db.define("gameplayerhand", {
     gameId: {
       type: Sequelize.INTEGER,
@@ -82,7 +93,7 @@ module.exports.createStore = () => {
       primaryKey: true,
     },
     whiteCardId: Sequelize.INTEGER,
-    order: Sequelize.INTEGER,
+    orderColumn: Sequelize.INTEGER,
   });
 
   const game = db.define("game", {
@@ -111,6 +122,7 @@ module.exports.createStore = () => {
     users,
     cardPack,
     game,
+    gamePlayer,
     gamePlayerHand,
     gameRound,
     whiteCard,
