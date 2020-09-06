@@ -6,7 +6,7 @@ const resolvers = require("./resolvers");
 const UserAPI = require("./datasources/user");
 const BlackCardAPI = require("./datasources/blackCard");
 const WhiteCardAPI = require("./datasources/whiteCard");
-
+const CardPackAPI = require("./datasources/cardPack");
 const store = createStore();
 
 const server = new ApolloServer({
@@ -15,7 +15,8 @@ const server = new ApolloServer({
   dataSources: () => ({
     blackCardAPI: new BlackCardAPI({ store }),
     userAPI: new UserAPI({ store }),
-    whiteCardAI: new WhiteCardAPI({ store }),
+    whiteCardAPI: new WhiteCardAPI({ store }),
+    cardPackAPI: new CardPackAPI({ store }),
   }),
   engine: {
     reportSchema: true,

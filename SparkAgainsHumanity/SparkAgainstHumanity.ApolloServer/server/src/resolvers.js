@@ -10,7 +10,10 @@ module.exports = {
       dataSources.whiteCardAPI.getWhiteCards(),
     whiteCardById: async (_, { whiteCardId }, { dataSources }) =>
       dataSources.whiteCardAPI.getWhiteCardId({ whiteCardId: whiteCardId }),
-
+    cardPacks: async (_, __, { dataSources }) =>
+      dataSources.cardPackAPI.getCardPacks(),
+    cardPackById: async (_, { cardPackId }, { dataSources }) =>
+      dataSources.cardPackAPI.getCardPackId({ cardPackId }),
     me: async (_, __, { dataSources }) =>
       dataSources.userAPI.findOrCreateUser(),
   },
@@ -23,6 +26,11 @@ module.exports = {
     whiteCardImport: async (_, { whiteCards }, { dataSources }) => {
       return dataSources.whiteCardAPI.importWhiteCards({
         whiteCards: whiteCards,
+      });
+    },
+    PostCardPack: async (_, { description }, { dataSources }) => {
+      return dataSources.cardPackAPI.postCardPack({
+        description: description,
       });
     },
     login: async (_, { email }, { dataSources }) => {

@@ -1,6 +1,6 @@
 const { DataSource } = require("apollo-datasource");
 
-class WhiteCardAPI extends DataSource {
+class CardPackAPI extends DataSource {
   constructor({ store }) {
     super();
     this.store = store;
@@ -15,21 +15,19 @@ class WhiteCardAPI extends DataSource {
   initialize(config) {
     this.context = config.context;
   }
-  async getWhiteCards() {
-    return await this.store.whiteCard.findAll();
+  async getCardPacks() {
+    return await this.store.cardPack.findAll();
   }
-  async getWhiteCardId({ whiteCardId }) {
-    return await this.store.whiteCard.findAll({
-      where: { whiteCardId },
+  async getCardPackId({ cardPackId }) {
+    return await this.store.cardPack.findAll({
+      where: { cardPackId },
     });
   }
-  async importWhiteCards({ whiteCards }) {
-    return await this.store.whiteCard
-      .bulkCreate(whiteCards, { returning: true })
-      .then(function (whiteardsCreated) {
-        return whiteardsCreated;
-      });
+  async postCardPack({ description }) {
+    return await this.store.cardPack.findOrCreate({
+      where: { description: description },
+    });
   }
 }
 
-module.exports = WhiteCardAPI;
+module.exports = CardPackAPI;

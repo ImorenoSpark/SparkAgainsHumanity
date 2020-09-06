@@ -33,7 +33,14 @@ module.exports.createStore = () => {
     dialect: "sqlite",
     storage: "./store.SparkAgainstHumanity",
   });
-
+  const cardPack = db.define("cardpack", {
+    cardPackId: {
+      type: Sequelize.INTEGER,
+      primaryKey: true,
+      autoIncrement: true,
+    },
+    description: Sequelize.STRING,
+  });
   const blackCard = db.define("blackcard", {
     blackCardId: {
       type: Sequelize.INTEGER,
@@ -42,6 +49,7 @@ module.exports.createStore = () => {
     },
     description: Sequelize.STRING,
     cardType: Sequelize.STRING,
+    cardPackId: Sequelize.INTEGER,
   });
   const whiteCard = db.define("whitecard", {
     whiteCardId: {
@@ -50,6 +58,7 @@ module.exports.createStore = () => {
       autoIncrement: true,
     },
     description: Sequelize.STRING,
+    cardPackId: Sequelize.INTEGER,
   });
   const gameRound = db.define("gameround", {
     gameId: {
@@ -97,5 +106,14 @@ module.exports.createStore = () => {
     token: Sequelize.STRING,
   });
 
-  return { db, users, game, gamePlayerHand, gameRound, whiteCard, blackCard };
+  return {
+    db,
+    users,
+    cardPack,
+    game,
+    gamePlayerHand,
+    gameRound,
+    whiteCard,
+    blackCard,
+  };
 };

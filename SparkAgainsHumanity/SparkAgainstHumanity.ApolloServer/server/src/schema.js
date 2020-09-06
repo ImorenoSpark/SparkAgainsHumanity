@@ -7,6 +7,7 @@ const typeDefs = gql`
   type Mutation {
     blackCardImport(blackCards: [blackCardInput]): [BlackCard]
     whiteCardImport(whiteCards: [whiteCardInput]): [WhiteCard]
+    PostCardPack(description: String): CardPack
     login(email: String): User!
   }
   """
@@ -15,9 +16,11 @@ const typeDefs = gql`
   input blackCardInput {
     description: String
     cardType: BlackCardType
+    cardPackId: Int
   }
   input whiteCardInput {
     description: String
+    cardPackId: Int
   }
   """
   queries
@@ -25,6 +28,8 @@ const typeDefs = gql`
   type Query {
     blackCards: [BlackCard]
     blackCardById(blackCardId: Int): BlackCard
+    cardPacks: [CardPack]
+    cardPackById(cardPackId: String): CardPack
     whiteCards: [WhiteCard]
     whiteCardById(WhiteCardId: Int): WhiteCard
     me: User
@@ -32,6 +37,10 @@ const typeDefs = gql`
   """
   types
   """
+  type CardPack {
+    cardPackId: Int
+    description: String
+  }
   type User {
     id: ID!
     email: String!
@@ -44,8 +53,9 @@ const typeDefs = gql`
     cardType: BlackCardType
   }
   type WhiteCard {
-    whitecardId: Int
+    whiteCardId: Int
     description: String
+    cardPackId: Int
   }
   type Game {
     gameId: Int
