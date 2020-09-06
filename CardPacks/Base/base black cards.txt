@@ -1,0 +1,271 @@
+[{
+		"description": "Why can't I sleep at night?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "I got 99 problems but _ ain't one.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "What's a girl's best friend?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "What's that smell?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "This is the way the world ends \/ This is the way the world ends \/ Not with a bang but with _.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "What is Batman's guilty pleasure?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "TSA guidelines now prohibit _ on airplanes.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "What ended my last relationship?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "MTV's new reality show features eight washed-up celebrities living with _.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "I drink to forget _.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "I'm sorry, Professor, but I couldn't complete my homework because of _.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "Alternative medicine is now embracing the curative powers of _.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "What's that sound?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "What's the next Happy Meal&reg; toy?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "It's a pity that kids these days are all getting involved with _.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "In the new Disney Channel Original Movie, Hannah Montana struggles with _ for the first time.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "_. That's how I want to die.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "What does Dick Cheney prefer?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "What's the most emo?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "Instead of coal, Santa now gives the bad children _.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "Next from J.K. Rowling: Harry Potter and the Chamber of _.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "A romantic, candlelit dinner would be incomplete without _.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "White people like _.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "_. Betcha can't have just one!",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "War!<br><br>What is it good for?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "BILLY MAYS HERE FOR _.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "_. High five, bro.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "During sex, I like to think about _.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "What did I bring back from Mexico?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "What are my parents hiding from me?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "What will always get you laid?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "What would grandma find disturbing, yet oddly charming?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "What did the U.S. airdrop to the children of Afghanistan?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "What helps Obama unwind?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "What's there a ton of in heaven?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "Major League Baseball has banned _ for giving players an unfair advantage.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "When I am a billionaire, I shall erect a 50-foot statue to commemorate _.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "What's the new fad diet?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "When I am the President of the United States, I will create the Department of _.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "_. It's a trap!",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "How am I maintaining my relationship status?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "What will I bring back in time to convince people that I am a powerful wizard?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "While the United States raced the Soviet Union to the moon, the Mexican government funneled millions of pesos into research on _.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "Coming to Broadway this season, _: The Musical.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "What's my secret power?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "What gives me uncontrollable gas?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "But before I kill you, Mr. Bond, I must show you _.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "What never fails to liven up the party?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "What am I giving up for Lent?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "What do old people smell like? ",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "The class field trip was completely ruined by _.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "When Pharaoh remained unmoved, Moses called down a plague of _.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "I do not know with which weapons World War III will be fought, but World War IV will be fought with _.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "What's Teach for America using to inspire inner city students to succeed?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "In Michael Jackson's final moments, he thought about _.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "Why do I hurt all over?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "Studies show that lab rats navigate mazes 50% faster after being exposed to _.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "Why am I sticky?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "What's my anti-drug?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "And the Academy Award for _ goes to _.",
+		"cardType": "D", "cardPackId":1
+	}, {
+		"description": "For my next trick, I will pull _ out of _.",
+		"cardType": "D", "cardPackId":1
+	}, {
+		"description": "_: Good to the last drop.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "What did Vin Diesel eat for dinner?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "_: kid-tested, mother-approved.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "What gets better with age?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "I never truly understood _ until I encountered _.",
+		"cardType": "D", "cardPackId":1
+	}, {
+		"description": "Rumor has it that Vladimir Putin's favorite delicacy is _ stuffed with _.",
+		"cardType": "D", "cardPackId":1
+	}, {
+		"description": "Lifetime&reg; presents _, the story of _.",
+		"cardType": "D", "cardPackId":1
+	}, {
+		"description": "Make a haiku.",
+		"cardType": "T", "cardPackId":1
+	}, {
+		"description": "In M. Night Shyamalan's new movie, Bruce Willis discovers that _ had really been _ all along.",
+		"cardType": "D", "cardPackId":1
+	}, {
+		"description": "_ is a slippery slope that leads to _.",
+		"cardType": "D", "cardPackId":1
+	}, {
+		"description": "In a world ravaged by _, our only solace is _.",
+		"cardType": "D", "cardPackId":1
+	}, {
+		"description": "That's right, I killed _. How, you ask? _.",
+		"cardType": "D", "cardPackId":1
+	}, {
+		"description": "When I was tripping on acid, _ turned into _.",
+		"cardType": "D", "cardPackId":1
+	}, {
+		"description": "_ + _ = _.",
+		"cardType": "T", "cardPackId":1
+	}, {
+		"description": "What's the next superhero\/sidekick duo?",
+		"cardType": "D", "cardPackId":1
+	}, {
+		"description": "Dear Abby,<br><br>I'm having some trouble with _ and would like your advice.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "After the earthquake, Sean Penn brought _ to the people of Haiti.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "In L.A. County Jail, word is you can trade 200 cigarettes for _.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "Maybe she's born with it. Maybe it's _.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "Life for American Indians was forever changed when the White Man introduced them to _.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "Next on ESPN2, the World Series of _.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "Step 1: _. Step 2: _. Step 3: Profit.",
+		"cardType": "D", "cardPackId":1
+	}, {
+		"description": "Here is the church<br>Here is the steeple<br>Open the doors<br>And there is _.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "How did I lose my virginity?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "During his childhood, Salvador Dal&iacute; produced hundreds of paintings of _.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "In 1,000 years, when paper money is a distant memory, how will we pay for goods and services?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "What don't you want to find in your Kung Pao chicken?",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "The Smithsonian Museum of Natural History has just opened an exhibit on _.",
+		"cardType": "S", "cardPackId":1
+	}, {
+		"description": "Daddy, why is Mommy crying?",
+		"cardType": "S", "cardPackId":1
+	}]

@@ -1,0 +1,7 @@
+create table cardPacks(cardPackId integer primary key autoincrement, description varchar(250),createdAt text, updatedAt text);
+create table blackcards(blackCardId integer primary key autoincrement, description varchar(250), cardType varchar(1), cardPackId integer,createdAt text, updatedAt text);
+create table whitecards(whiteCardId integer primary key autoincrement, description varchar(250),cardPackId integer,createdAt text, updatedAt text);
+create table users(userId integer primary key autoincrement, email text, token text,createdAt text, updatedAt text);
+create table games(gameId integer primary key autoincrement, roundPlayingId integer, blackCardPlayingId integer,currentCardCzarId integer,createdAt text, updatedAt text);
+create table gameplayerhands(gameId integer primary key autoincrement, userId integer, whiteCardId integer, orderColumn integer,createdAt text, updatedAt text);
+create table gamerounds(gameId integer primary key autoincrement, userId integer, roundId integer, blackCardId integer,createdAt text, updatedAt text);
